@@ -10,3 +10,6 @@
 
 This is a minimum working example of how a custom simulator can be created. The original workings that drives the simulator has been redacted but it does provides a boilerplate-like code for a custom simulator be built on. This example is mainly use for test cases but can be used as a reference on how to create
 a custom simulator that interacts with RLSuite.
+
+**How to Use:**
+1. Run `poetry install`
