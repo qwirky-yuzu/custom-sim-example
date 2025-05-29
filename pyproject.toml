@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "rlhr-sim"
+version = "1.0.0"
+description = "Custom Simulator for RLHR"
+authors = ["Digital Hub, 2025"]
+readme = "README.md"
+packages = [{ include = "rlhr_sim" }]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+pandas = "2.2.0"
+numpy = "1.23.2"
+openpyxl = "3.1.5"
+pettingzoo = "1.22.1"
+gymnasium = "0.26.3"
+zipp = "3.17.0"
+importlib-metadata = "6.11.0"
+python-dateutil = "2.8.2"
+pytz = "2023.3.post1"
+tzdata = "2023.4"
+termcolor = "2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
